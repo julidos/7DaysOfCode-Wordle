@@ -1,0 +1,98 @@
+* {
+    border: 0;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #14161C;
+} 
+
+.cabecalho {
+    border-bottom: 1px solid #585858;
+    height: 80px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    height: inherit;
+    margin: 0 auto;
+    max-width: 992px;
+}
+
+main {
+    margin: 85px auto 0;
+    max-width: 992px;
+}
+
+/* Board */
+
+.tabuleiro {
+    margin: 200px auto 0;
+    width: 330px;
+}
+
+.tabuleiro .linha {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 62px 62px 62px 62px 62px;
+    height: 62px;
+    margin-bottom: 5px;
+}
+
+.tabuleiro .letra {
+    border: 1px solid #585858;
+}
+
+.tabuleiro .letra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* Keyboard */
+
+.teclado {
+    margin: 50px auto 0;
+}
+
+.teclado .linha {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.teclado .letra,
+.teclado .action {
+    align-items: center;
+    background-color: #818384;
+    cursor: pointer;
+    display: flex;
+    font-size: 22px;
+    height: 58px;
+    justify-content: center;
+    transition: filter 0.2s;
+    width: 43px;
+}
+
+.teclado .letra:hover,
+.teclado .action:hover {
+    filter: brightness(0.8);
+}
+
+.teclado .enter {
+    font-size: 17px;
+    width: 83px;
+}

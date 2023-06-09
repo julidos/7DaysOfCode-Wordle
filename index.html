@@ -1,14 +1,115 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wordle - #7DaysOfCode</title>
     <link rel="shortcut icon" href="./images/Logo.png" type="image/png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+
+    <div class="cabecalho">
+        <header>
+            <div id="logo">
+                <img src="./images/logo.png" alt="Logo com fundo amarelo e a letra W em preto">
+            </div>
+        </header>
+    </div>
+
+    <main>
+        <section class="tabuleiro">
+            <div class="linha linha-1">
+                <div class="letra letra-1"></div>
+                <div class="letra letra-2"></div>
+                <div class="letra letra-3"></div>
+                <div class="letra letra-4"></div>
+                <div class="letra letra-5"></div>
+            </div>
+            <div class="linha linha-2">
+                <div class="letra letra-1"></div>
+                <div class="letra letra-2"></div>
+                <div class="letra letra-3"></div>
+                <div class="letra letra-4"></div>
+                <div class="letra letra-5"></div>
+            </div>
+            <div class="linha linha-3">
+                <div class="letra letra-1"></div>
+                <div class="letra letra-2"></div>
+                <div class="letra letra-3"></div>
+                <div class="letra letra-4"></div>
+                <div class="letra letra-5"></div>
+            </div>
+            <div class="linha linha-4">
+                <div class="letra letra-1"></div>
+                <div class="letra letra-2"></div>
+                <div class="letra letra-3"></div>
+                <div class="letra letra-4"></div>
+                <div class="letra letra-5"></div>
+            </div>
+            <div class="linha linha-5">
+                <div class="letra letra-1"></div>
+                <div class="letra letra-2"></div>
+                <div class="letra letra-3"></div>
+                <div class="letra letra-4"></div>
+                <div class="letra letra-5"></div>
+            </div>
+            <div class="linha linha-6">
+                <div class="letra letra-1"></div>
+                <div class="letra letra-2"></div>
+                <div class="letra letra-3"></div>
+                <div class="letra letra-4"></div>
+                <div class="letra letra-5"></div>
+            </div>
+        </section>
+        <section class="teclado">
+            <div class="linha linha-1">
+                <button class="letra letra-Q">Q</button>
+                <button class="letra letra-W">W</button>
+                <button class="letra letra-E">E</button>
+                <button class="letra letra-R">R</button>
+                <button class="letra letra-T">T</button>
+                <button class="letra letra-Y">Y</button>
+                <button class="letra letra-U">U</button>
+                <button class="letra letra-I">I</button>
+                <button class="letra letra-O">O</button>
+                <button class="letra letra-P">P</button>
+            </div>
+            <div class="linha linha-2">
+                <button class="letra letra-A">A</button>
+                <button class="letra letra-S">S</button>
+                <button class="letra letra-D">D</button>
+                <button class="letra letra-F">F</button>
+                <button class="letra letra-G">G</button>
+                <button class="letra letra-H">H</button>
+                <button class="letra letra-J">J</button>
+                <button class="letra letra-K">K</button>
+                <button class="letra letra-L">L</button>
+            </div>
+            <div class="linha linha-3">
+                <button class="letra enter">Enter</button>
+                <button class="letra letra-Z">Z</button>
+                <button class="letra letra-X">X</button>
+                <button class="letra letra-C">C</button>
+                <button class="letra letra-V">F</button>
+                <button class="letra letra-B">B</button>
+                <button class="letra letra-N">N</button>
+                <button class="letra letra-M">M</button>
+                <button type="button" class="action erase">
+                    <img src="./images/apagar.png" alt="Clica para apagar"/>
+                </button>
+            </div>
+        </section>
+    </main>
+
+
 </body>
+
 </html>
