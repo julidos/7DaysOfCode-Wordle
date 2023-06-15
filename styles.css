@@ -7,6 +7,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     background-color: #14161C;
 } 
@@ -49,12 +50,13 @@ main {
 }
 
 .tabuleiro .letra {
-    border: 1px solid #585858;
+    border: 1px solid #eeff00;
 }
 
 .tabuleiro .letra {
     display: flex;
     justify-content: center;
+    border-radius: 15%;
     align-items: center;
     font-size: 22px;
     text-transform: capitalize;
@@ -76,6 +78,7 @@ main {
 
 .teclado .letra,
 .teclado .action {
+    border-radius: 15%;
     align-items: center;
     background-color: #818384;
     cursor: pointer;
@@ -89,7 +92,7 @@ main {
 
 .teclado .letra:hover,
 .teclado .action:hover {
-    filter: brightness(0.8);
+    filter: brightness(0.7);
 }
 
 .teclado .enter {
